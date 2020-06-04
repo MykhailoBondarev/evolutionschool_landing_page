@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /application/
+Disallow: /system/
+Host: https://evolutionschool.pp.ua
+Sitemap: https://evolutionschool.pp.ua/sitemap.xml
