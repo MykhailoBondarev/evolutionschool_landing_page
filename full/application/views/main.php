@@ -26,6 +26,19 @@
 
         <title>Evolution Language School</title>
     </head>
+    <style>
+        m#start-test-btn {
+            background-color: #305eac;
+            color: #ecf3cd;
+        }
+
+        m#start-test-btn:hover {
+            background-color: #78a3ec;
+            color: #7a7b73;
+            line-height: 60px;
+            letter-spacing: 3px;
+        }
+    </style>
 
     <body>
         <div id="preloader" class="preloader">
@@ -246,7 +259,7 @@
                     <div class="center"> <img src="/test-icon.ab2eefa5.png" alt="test-icon"> </div>
                     <p class="text-lite test-notice"> Для того чтобы максимально верно определить ваш уровень знаний, рекомендую вам пройти небольшой тест из <?php echo sizeof($questions); ?> вопросов. После этого вы сможете заполнить форму обратной связи, для нашего дальнейшего общения. </p>
                     <div class="center">
-                        <m id="start-test-btn" class="caption-lite btn blue">Пройти тестирование</m>
+                        <m id="start-test-btn" class="caption-lite btn">Пройти тестирование</m>
                     </div>
                     <div>
                         <form id="test-form" action="main/send" method="POST">
@@ -399,10 +412,10 @@
                     </div>
                 </div>
                 <div class="footer-copyright">
-                    <div class="container"> © 2020 TW Copyright <a class="grey-text text-lighten-4 right" href="https://mykhailobondarev.github.io/">Development by TW</a> </div>
+                    <div class="container"> © TW Copyright 2020-<?php echo date('Y'); ?><a class="grey-text text-lighten-4 right" href="https://mykhailobondarev.github.io/">Development by TW</a> </div>
                 </div>
             </footer>
-            <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js"></script>
+            <script src="/wow.min.js"></script>
             <script src="https://www.google.com/recaptcha/api.js?render=6LdnFPsUAAAAAA2mDd712HZDnMtW5O8Yyd5XX3XO"></script>
             <script src="/script.f932cdef.js"></script>
     </body>

@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '177.77.17.3',
+	'hostname' => 'localhost',
 	'username' => 'evolution',
 	'password' => 'B9LyGn2UPpULh9oD',
 	'database' => 'evolution',
